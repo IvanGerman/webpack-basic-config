@@ -20,8 +20,11 @@
   },
   "homepage": "https://github.com/IvanGerman/webpack-basic-config#readme",
   "devDependencies": {
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.76.2",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.13.1"
   }
 }
+

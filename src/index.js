@@ -1,3 +1,4 @@
+import './index.html';
 let sum = 2 + 4;
 
-console.log(sum);
+console.log('sum = ', sum);
