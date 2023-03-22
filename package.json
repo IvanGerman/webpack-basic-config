@@ -1,15 +1,27 @@
 {
-  "name": "webpack-basic-config-js",
+  "name": "webpack-basic-config",
   "version": "1.0.0",
-  "description": "webpack-basic-config-js 21.03.23",
-  "main": "index.js",
+  "description": "",
+  "main": "webpack.config.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "start": "webpack serve",
+    "build-dev": "webpack",
+    "build-prod": "webpack --node-env=production",
+    "clear": "rd /s /q dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanGerman/webpack-basic-config.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanGerman/webpack-basic-config/issues"
+  },
+  "homepage": "https://github.com/IvanGerman/webpack-basic-config#readme",
   "devDependencies": {
     "webpack": "^5.76.2",
-    "webpack-cli": "^5.0.1"
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1"
   }
 }

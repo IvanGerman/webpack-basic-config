@@ -1,16 +1,10 @@
-//Webpack requires this to work with directories
-const path =  require('path');
+const path = require("path");
 
-// This is main configuration object that tells Webpackw what to do. 
 module.exports = {
-    //path to entry paint
-    entry: './src/index.js',
-    //path and filename of the final output
-    output: {
-        path: path.resolve(__dirname, 'dist'),
-        filename: 'bundle.js'
-    },
-    
-    //default mode is production
-    mode: 'development'
-}
+  entry: path.resolve(__dirname, 'src', 'index.js'),
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    clean: true,
+    filename: 'index.[contenthash].js',
+  }
+};
