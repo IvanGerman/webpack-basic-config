@@ -58,7 +58,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.m?js$/,
+        test: /\.m?js$/i,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
@@ -67,6 +67,13 @@ module.exports = {
               ['@babel/preset-env', { targets: "defaults" }]
             ]
           }
+        }
+      },
+      {
+        test: /\.(woff(2)?|eot|ttf|otf)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: 'fonts/[name][ext]'
         }
       },
     ]
