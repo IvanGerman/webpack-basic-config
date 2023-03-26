@@ -1,5 +1,10 @@
 @font-face {
-  font-family: 'RobotoSlab';
-  src: local(''), url('fonts/RobotoSlab-Medium.ttf') format('ttf'),
-       url('fonts/RobotoSlab-Regular.ttf') format('ttf')
+  font-family: 'Roboto Slab';
+  src: local(''), url('fonts/RobotoSlab-Medium.ttf') format('truetype'),
+       url('fonts/RobotoSlab-Regular.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Alkatra';
+  src: local(''), url('fonts/Alkatra-Regular.ttf') format('truetype')
 }

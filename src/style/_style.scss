@@ -1,10 +1,14 @@
 body {
   background-color: $bg-color;
   user-select: none;
-  font-family: 'RobotoSlab';
+  font-family: 'Alkatra';
 }
 
 .bg-image {
   width: $img-width;
   margin: 0 auto;
+}
+
+.roboto-slab-text {
+  font-family: 'Roboto Slab';
 }
