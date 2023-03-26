@@ -12,3 +12,12 @@ body {
 .roboto-slab-text {
   font-family: 'Roboto Slab';
 }
+
+.heart-div {
+  width: 13vw;
+  height: 25vh;
+  background-image: url(./img/heart.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

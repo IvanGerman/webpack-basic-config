@@ -15,3 +15,6 @@ module.exports = {
     hot: true,
   },
 }
+
+
+image-webpack-loader - minimizes the image size
